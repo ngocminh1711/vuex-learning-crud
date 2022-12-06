@@ -6,9 +6,7 @@
           <v-list-item class="align-center">
             <v-list-item-title>
               <v-btn>
-                <router-link to="/">
-                  Home
-                </router-link>
+                <router-link to="/"> Home </router-link>
               </v-btn>
             </v-list-item-title>
           </v-list-item>
@@ -16,10 +14,7 @@
           <v-list-item class="align-center">
             <v-list-item-title>
               <v-btn>
-                <router-link to="/about">
-                  About
-                </router-link>
-                 
+                <router-link to="/about"> About </router-link>
               </v-btn>
             </v-list-item-title>
           </v-list-item>
@@ -41,16 +36,13 @@
 
 <script>
 export default {
-    name: 'nav-bar',
-    data() {
-        return { 
-            sidebar: false
-        }
-    }
-    
-}
+  name: "nav-bar",
+  data() {
+    return {
+      sidebar: false,
+    };
+  },
+};
 </script>
 
-<style>
-
-</style>
+<style></style>

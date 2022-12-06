@@ -1,6 +1,6 @@
 <template>
   <div id="app">
-    <Navbar/>
+    <Navbar />
   </div>
 </template>
 
@@ -8,23 +8,21 @@
 import Navbar from "./components/Navbar.vue";
 
 export default {
-  name: 'App',
-  data () {
-    return  {
-      post: []
-    }
+  name: "App",
+  data() {
+    return {
+      post: [],
+    };
   },
   components: {
     Navbar,
   },
-  mounted(){
-  },
-  
-}
+  mounted() {},
+};
 </script>
 
 <style scoped>
- #app {
-  margin-top: 0px
- }
+#app {
+  margin-top: 0px;
+}
 </style>
