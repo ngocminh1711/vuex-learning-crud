@@ -29,10 +29,13 @@ export default new Vuex.Store({
        UPDATE_POST(state, postEdited) {  
         state.posts.forEach((post,index) => {
             if (post._id === postEdited._id) {
-                state.posts[index] = postEdited;
+                state.posts[index].name = postEdited.name;
             }
         })
        }
+
+
+
     },
     actions: {
         async getPosts({ commit }) {
